@@ -1,0 +1,8 @@
+www/
+    templates/
+    statics/
+__main__.py
+__init__.py
+database.py  # database
+database_settings.py  # engin, session settings for database
+models.py  # sql models
