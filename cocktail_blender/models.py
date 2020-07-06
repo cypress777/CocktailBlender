@@ -13,9 +13,9 @@ STR_LEN = 500
 class Drink(Base):
     __tablename__ = "drinks"
 
-    drink_id = Column(String(ID_LEN), primary_key=True)
+    drink_id = Column(Integer, primary_key=True, autoincrement=True)
     drink_name = Column(String(STR_LEN), nullable=False, unique=True)
     drink_type = Column(String(STR_LEN))
     density = Column(DECIMAL)
-    solubility = Column(Boolean)
+    water_solubility = Column(Boolean)
     color = Column(String(STR_LEN))

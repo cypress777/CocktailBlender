@@ -1,0 +1,19 @@
+{
+    "drinks": [
+        {
+            "operator": "add",
+            "drink": {
+                "drink_name": "chambord",
+                "drink_type": "soft"
+            }
+        },
+        {
+            "operator": "mod",
+            "drink": {
+                "drink_name": "chambord",
+                "drink_type": "alcohol"
+            }
+
+        }
+    ]
+}
