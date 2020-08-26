@@ -1,9 +1,9 @@
-import cocktail_blender.database as cbdb
-import cocktail_blender.database_settings as cocktail_db_settings
-import cocktail_blender.models as cocktail_models
+import cocktail_blender.database.manager as db_manager
+import cocktail_blender.database.settings as cocktail_db_settings
+import cocktail_blender.database.models as cocktail_models
 
-cbdb.reset_database()
-cbdb.initialize_database()
+db_manager.reset_database()
+db_manager.initialize_database()
 session = cocktail_db_settings.Session()
 tmp_drink = cocktail_models.Drink()
 tmp_drink.drink_name = 'water'

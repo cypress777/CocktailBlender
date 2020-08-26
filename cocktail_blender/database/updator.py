@@ -1,7 +1,7 @@
 import json
 
-import cocktail_blender.database_settings as cocktail_db_settings
-import cocktail_blender.models as cocktail_models
+import cocktail_blender.database.settings as cocktail_db_settings
+import cocktail_blender.database.models as cocktail_models
 
 
 def convert_json_to_object(json_object):
